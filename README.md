@@ -58,7 +58,7 @@ cd code
 python main.py --dir_data ../testset --data_test Set5 --model physics_sr --pre_train ../models/X2/model_best.pt --scale 2 --save physics_sr_x2 --save_results --test_only
 ```
 All results can be found in ``./experiment/physics_sr_x2/results/``
-  * To test all scale, you can modify the options(pre_train, scale) of the command above.  
+  * To test all scales, you can modify the options(pre_train, scale) of the command above.  
   * To test other benchmarks, you can modify the option(data_test) of the command above.   
   * To change the save root, you can modify the option(save) of the command above.  
   
@@ -86,7 +86,7 @@ cd code
 python main.py --dir_data <your root> --data_test DIV2K --model physics_sr --scale 2 --save physics_sr_x2 --save_results
 ```
 The trained model can be found in ``./experiment/physics_sr_x2/model``
-  * To train all scales, you can modify the optio(scale) of the command above.  
+  * To train all scales, you can modify the option(scale) of the command above.  
   * To test other benchmarks, you can modify the option(data_test) of the command above.   
   * To change the save root, you can modify the option(save) of the command above.  
 
