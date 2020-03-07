@@ -57,7 +57,7 @@ Then, run the following commands:
 cd code
 python main.py --dir_data ../testset --data_test Set5 --model physics_sr --pre_train ../models/X2/model_best.pt --scale 2 --save physics_sr_x2 --save_results --test_only
 ```
-All results can be found in ``./experiment/physics_sr_x2/results/``
+And generated results can be found in ``./experiment/physics_sr_x2/results/``
   * To test all scales, you can modify the options(pre_train, scale) of the command above.  
   * To test other benchmarks, you can modify the option(data_test) of the command above.   
   * To change the save root, you can modify the option(save) of the command above.  
@@ -94,17 +94,10 @@ The trained model can be found in ``./experiment/physics_sr_x2/model``
 ## Citation
 If our work is useful in your research or publication, please cite our work:
 ```
-@InProceedings{Lim_2017_CVPR_Workshops,
-  author = {Lim, Bee and Son, Sanghyun and Kim, Heewon and Nah, Seungjun and Lee, Kyoung Mu},
-  title = {Enhanced Deep Residual Networks for Single Image Super-Resolution},
-  booktitle = {The IEEE Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
-  month = {July},
-  year = {2017}
-}
 
 @inproceedings{pan2020physics_sr,
     title={Image Formation Model Guided Deep Image Super-Resolution},
-    author={Jinshan Pan, Deqing Sun, Jimmy Ren, Ming-Ming Cheng, Jian Yang, and Jinhui Tang},
+    author={Jinshan Pan, Yang Liu, Deqing Sun, Jimmy Ren, Ming-Ming Cheng, Jian Yang, and Jinhui Tang},
     booktitle={AAAI},
     year={2020}
 }
