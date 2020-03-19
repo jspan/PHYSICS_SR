@@ -17,7 +17,7 @@ The code is built on EDSR (PyTorch) and tested on Ubuntu 16.04 environment (Pyth
 
 ## Get started
 
-#### Trainset:
+#### Training dataset:
 We use the DIV2K dataset to train our models. You can download it from [here](https://data.vision.ee.ethz.ch/cvl/DIV2K/)
 
 #### Benechmarks:
